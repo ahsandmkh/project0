@@ -1,0 +1,29 @@
+@import './resets';
+@import './variables';
+@function weight($weight-name){
+    @return map-get($font-weights, $weight-name);
+}
+body {
+    background: $primary-color;
+    color: $text-color;   
+}
+h1 {
+    text-align: center;;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    #{&}__paragraph {
+        color: orange;
+        font-weight: weight(regular);
+        &:hover {
+            color:green;
+        }
+    }
+    h1 {
+        font-weight: map-get($font-weights, bold);
+    }
+}
