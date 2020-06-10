@@ -1,7 +1,12 @@
 @import './resets';
 @import './variables';
 @function weight($weight-name){
-    @return map-get($font-weights, $weight-name);
+    @return map-get($font-weights, $weight-name);    
+}
+@mixin flexcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 body {
     background: $primary-color;
@@ -11,9 +16,7 @@ h1 {
     text-align: center;;
 }
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   @include flexcenter;
     width: 80%;
     margin: 0 auto;
     #{&}__paragraph {
