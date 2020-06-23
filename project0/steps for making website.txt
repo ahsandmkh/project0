@@ -1,0 +1,25 @@
+Todos.
+
+1.Build the project
+      - creating the folder
+      - Adding file
+      - connecting files
+
+2.Navbar
+      2- link a name
+
+3- Portfolio item grids
+    1-images
+    2-titles
+    3-descriptions
+    4-animations
+    5-javacript\
+
+4- About
+    1- splits
+    2- column
+    3- layout
+    4- content
+important website
+1- bootstrap.com
+font awesome 4 cdn
